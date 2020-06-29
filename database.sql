@@ -1,26 +1,5 @@
 use wetbat;
 
-GO
-DROP TABLE Quotes
-GO
-DROP TABLE VehicleRates
-GO
-DROP TABLE Trips
-GO
-GO
-DROP TABLE TravellerGroups;
-GO
-DROP TABLE Groups;
-GO
-DROP TABLE Travellers
-GO
-DROP TABLE users;
-GO
-DROP TABLE Contacts;
-GO
-DROP Table PickupLocations;
-GO
-DROP Table Locations;
 -- Create a new table called 'Contacts'
 -- Drop the table if it already exists
 IF OBJECT_ID('Contacts', 'U') IS NOT NULL
