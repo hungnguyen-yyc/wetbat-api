@@ -4,7 +4,7 @@ namespace wetbat_api.Models
 {
     public class Trip
     {
-        public Trip(Guid _id, Location _departure, Location _destination, DateTime _startDate, DateTime _toDate) {
+        public Trip(Guid _id, PickupLocation _departure, PickupLocation _destination, DateTime _startDate, DateTime _toDate) {
             Id = _id;
             Departure = _departure;
             Destination = _destination;
@@ -13,8 +13,8 @@ namespace wetbat_api.Models
         }
 
         public Guid Id { get; }
-        public Location Departure { get; }
-        public Location Destination { get; }
+        public PickupLocation Departure { get; }
+        public PickupLocation Destination { get; }
         public DateTime StartDate { get; }
         public DateTime ToDate { get; }
     }

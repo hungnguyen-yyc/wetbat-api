@@ -1,6 +1,6 @@
 namespace wetbat_api.Repositories
 {
-    public class TransportationTableDataGateway
+    public class VehicleRateTableDataGateway
     {
         
     }

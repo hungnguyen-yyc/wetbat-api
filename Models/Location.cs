@@ -11,7 +11,6 @@ namespace wetbat_api.Models
             CityCode = _cityCode;
             Country = _country;
             Currency = _currency;
-            PickupLocations = _pickupLocation;
         }
 
         public Guid Id { get; }
@@ -19,6 +18,5 @@ namespace wetbat_api.Models
         public string CityCode { get; }
         public string Country { get; }
         public Currency Currency { get; }
-        public PickupLocation[] PickupLocations { get; }
     }
 }

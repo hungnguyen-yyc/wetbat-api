@@ -4,6 +4,5 @@ namespace wetbat_api.Models
     {
         Car,
         Motobike,
-        Bicycle,
     }
 }

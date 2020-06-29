@@ -52,3 +52,8 @@ C:\Users\Hung\Documents\Code\wetbat-api\obj\Debug\netcoreapp3.1\staticwebassets\
 C:\Users\Hung\Documents\Code\wetbat-api\obj\Debug\netcoreapp3.1\wetbat-api.dll
 C:\Users\Hung\Documents\Code\wetbat-api\obj\Debug\netcoreapp3.1\wetbat-api.pdb
 C:\Users\Hung\Documents\Code\wetbat-api\obj\Debug\netcoreapp3.1\wetbat-api.genruntimeconfig.cache
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\web.config
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\appsettings.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\wetbat-api.deps.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\wetbat-api.runtimeconfig.json
