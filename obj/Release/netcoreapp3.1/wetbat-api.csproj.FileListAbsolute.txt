@@ -52,3 +52,11 @@ C:\Users\Hung\Documents\Code\wetbat-api\obj\Release\netcoreapp3.1\staticwebasset
 C:\Users\Hung\Documents\Code\wetbat-api\obj\Release\netcoreapp3.1\wetbat-api.dll
 C:\Users\Hung\Documents\Code\wetbat-api\obj\Release\netcoreapp3.1\wetbat-api.pdb
 C:\Users\Hung\Documents\Code\wetbat-api\obj\Release\netcoreapp3.1\wetbat-api.genruntimeconfig.cache
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\publish\web.config
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\publish\appsettings.Development.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\publish\appsettings.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\publish\wetbat-api.deps.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\publish\wetbat-api.runtimeconfig.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

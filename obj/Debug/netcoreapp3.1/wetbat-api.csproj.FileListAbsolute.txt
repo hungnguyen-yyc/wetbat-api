@@ -60,3 +60,8 @@ C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\wetbat-a
 C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\publish\web.config
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\publish\appsettings.Development.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\publish\appsettings.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\publish\wetbat-api.deps.json
+C:\Users\Hung\Documents\Code\wetbat-api\bin\Debug\netcoreapp3.1\publish\publish\wetbat-api.runtimeconfig.json

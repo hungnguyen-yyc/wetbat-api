@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/805def6a-71cf-4f61-9e10-dcdb7aae971f/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/wetbat",
+    "appService.deploySubpath": "publish"
+}
