@@ -9,21 +9,21 @@ namespace wetbat_api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class PickupLocationController
+    public class QuoteController
     {
-        private readonly ILogger<PickupLocationController> _logger;
+        private readonly ILogger<QuoteController> _logger;
         private readonly QuoteRepository _repository;
 
-        public PickupLocationController(ILogger<PickupLocationController> logger, QuoteRepository repository)
+        public QuoteController(ILogger<QuoteController> logger, QuoteRepository repository)
         {
             _logger = logger;
             _repository = repository;
         }
 
         [HttpGet]
-        public IEnumerable<PickupLocation> Get()
+        public IEnumerable<Quote> Get()
         {
-            return _repository.GetPickupLocations().Values.ToList().ToArray();
+            return _repository.GetQuotes().ToArray();
         }
     }
 }

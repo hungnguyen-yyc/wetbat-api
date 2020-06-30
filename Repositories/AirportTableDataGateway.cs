@@ -17,7 +17,7 @@ namespace wetbat_api.Repositories
                 using (SqlConnection connection = new SqlConnection(Builder.ConnectionString))
                 {
                     connection.Open();
-                    using (SqlCommand command = new SqlCommand(this.GetSelectAllAirportQuery(), connection))
+                    using (SqlCommand command = new SqlCommand(this.GetSelectAllAirportsQuery(), connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
@@ -35,11 +35,10 @@ namespace wetbat_api.Repositories
             }
         }
 
-        private String GetSelectAllAirportQuery() {
+        private String GetSelectAllAirportsQuery() {
             StringBuilder sb = new StringBuilder();
-            sb.Append("SELECT pl.Id AS PickupLocationId, pl.Name, pl.Code, l.Id AS LocationId, l.CityName, l.Country, l.Currency ");
-            sb.Append("FROM [dbo].[PickupLocations] pl ");
-            sb.Append("INNER JOIN [dbo].[Locations] l ON pl.locationId = l.Id");
+            sb.Append("SELECT Id, Name, Code, LocationId ");
+            sb.Append("FROM [dbo].[PickupLocations]");
             return sb.ToString();
         }
     }

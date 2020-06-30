@@ -1,20 +1,23 @@
 using System;
-using System.Data;
-using System.Data.SqlClient;
+using System.Collections.Generic;
 using System.Text;
+using Microsoft.Data.SqlClient;
+using wetbat_api.Models;
+using System.Data;
 
 namespace wetbat_api.Repositories
 {
-    public class TravellerTableDataGateway : AbstratTableDataGateway
+    public class TravellerGroupTableDataGateway : AbstratTableDataGateway
     {
-        public DataTable GetTravellers() {
+
+        public DataTable GetTravellerGroups() {
             DataTable data = new DataTable();
             try 
             { 
                 using (SqlConnection connection = new SqlConnection(Builder.ConnectionString))
                 {
                     connection.Open();
-                    using (SqlCommand command = new SqlCommand(this.GetSelectAllTravellersQuery(), connection))
+                    using (SqlCommand command = new SqlCommand(this.GetSelectAllTravellerGroupsQuery(), connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
@@ -32,10 +35,10 @@ namespace wetbat_api.Repositories
             }
         }
 
-        private String GetSelectAllTravellersQuery() {
+        private String GetSelectAllTravellerGroupsQuery() {
             StringBuilder sb = new StringBuilder();
-            sb.Append("SELECT Id, UserId, IsResponsibleParty ");
-            sb.Append("FROM [dbo].[Travellers]");
+            sb.Append("SELECT Id, GroupId, TravellerId ");
+            sb.Append("FROM [dbo].[TravellerGroups]");
             return sb.ToString();
         }
     }
